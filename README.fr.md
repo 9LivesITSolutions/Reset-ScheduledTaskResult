@@ -1,11 +1,11 @@
-# reset-scheduledtask-result
+# Reset-ScheduledTaskResult
 
 > Script PowerShell qui réinitialise le dernier résultat d'exécution de tâches planifiées Windows en conservant leur définition et leurs ACL.
 
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 [![Version](https://img.shields.io/badge/version-1.0.0-informational.svg)](CHANGELOG.md)
 
-🇬🇧 [English version](README.md)
+[English version](README.md)
 
 ---
 
@@ -45,8 +45,8 @@ Pour une cible distante : WinRM (CIM) et les règles pare-feu « Gestion à dist
 ## Installation
 
 ```powershell
-git clone https://github.com/9lives/reset-scheduledtask-result.git
-cd reset-scheduledtask-result
+git clone https://github.com/9LivesITSolutions/Reset-ScheduledTaskResult.git
+cd Reset-ScheduledTaskResult
 ```
 
 Aucune dépendance à installer. Si besoin, débloquer le script :
@@ -130,7 +130,7 @@ Start-ScheduledTask -TaskName 'MaTache'
 ## Structure du projet
 
 ```
-reset-scheduledtask-result/
+Reset-ScheduledTaskResult/
 ├── Reset-ScheduledTaskResult.ps1   # Script principal
 ├── README.md                       # Documentation (EN)
 ├── README.fr.md                    # Documentation (FR)
@@ -153,4 +153,8 @@ Merci de suivre les [Conventional Commits](https://www.conventionalcommits.org/)
 
 ## Licence
 
-Ce projet est distribué sous licence MIT. Voir le fichier [LICENSE](LICENSE) pour plus de détails.
+Ce projet est distribué sous licence MIT. Voir le fichier [LICENSE](LICENSE).
+
+---
+
+Maintenu par **9 Lives IT Solutions** — Informatique de santé & automatisation d'infrastructure.

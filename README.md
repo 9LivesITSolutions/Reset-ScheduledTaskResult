@@ -1,11 +1,11 @@
-# reset-scheduledtask-result
+# Reset-ScheduledTaskResult
 
 > PowerShell script that resets the last run result of Windows scheduled tasks while preserving their definition and ACLs.
 
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 [![Version](https://img.shields.io/badge/version-1.0.0-informational.svg)](CHANGELOG.md)
 
-🇫🇷 [Version française](README.fr.md)
+[Version française](README.fr.md)
 
 ---
 
@@ -45,8 +45,8 @@ For remote targets: WinRM (CIM) and the "Remote Scheduled Tasks Management" fire
 ## Installation
 
 ```powershell
-git clone https://github.com/9lives/reset-scheduledtask-result.git
-cd reset-scheduledtask-result
+git clone https://github.com/9LivesITSolutions/Reset-ScheduledTaskResult.git
+cd Reset-ScheduledTaskResult
 ```
 
 No dependency to install. If needed, unblock the script:
@@ -130,7 +130,7 @@ Start-ScheduledTask -TaskName 'MyTask'
 ## Project Structure
 
 ```
-reset-scheduledtask-result/
+Reset-ScheduledTaskResult/
 ├── Reset-ScheduledTaskResult.ps1   # Main script
 ├── README.md                       # Documentation (EN)
 ├── README.fr.md                    # Documentation (FR)
@@ -154,3 +154,7 @@ Please follow [Conventional Commits](https://www.conventionalcommits.org/) for c
 ## License
 
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+
+---
+
+Maintained by **9 Lives IT Solutions** — Healthcare IT & Infrastructure Automation.
